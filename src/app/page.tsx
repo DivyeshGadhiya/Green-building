@@ -12,7 +12,7 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
+  title: "Raivat green - Home",
   description: "This is Home for Startup Nextjs Template",
   // other metadata
 };
@@ -22,11 +22,11 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-      <Features />
-      <Video />
-      <Brands />
-      <AboutSectionOne />
       <AboutSectionTwo />
+      <Features />
+      <Brands />
+      <Video />
+      <AboutSectionOne />
       <Testimonials />
       <Pricing />
       <Blog />
