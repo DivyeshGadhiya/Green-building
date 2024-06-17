@@ -52,13 +52,13 @@ const Hero = () => {
       className="relative z-10 overflow-hidden pt-[115px] bg-white dark:bg-gray-dark"
     >
       <div className="relative w-full mx-auto">
-        <div className="overflow-hidden relative rounded-lg shadow-lg">
+        <div className="overflow-hidden relative  shadow-lg">
           <Image
             src={images[currentIndex]}
             alt={`Slide ${currentIndex}`}
             height={1500}
             width={2000}
-            className="w-screen h-screen max-sm:h-[200px] transition duration-500 ease-in-out transform max-sm:object-contain"
+            className="w-screen h-screen max-sm:h-[200px] transition duration-500 ease-in-out transform max-sm:object-center"
           />
           <div className="absolute  top-1/2 left-0 transform -translate-y-1/2 p-4 pl-16 bg-black bg-opacity-50 text-white w-[90%] sm:w-[75%] md:w-[60%] lg:w-[45%]">
             <h2 className="text-2xl text-green-300 pb-3 sm:text-xl md:text-5xl lg:text-6xl font-bold">{content[currentIndex].title}</h2>

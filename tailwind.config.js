@@ -84,6 +84,9 @@ module.exports = {
       animation: {
         marquee: "marquee 30s linear infinite",
       },
+      backgroundImage: {
+        'green-gradient': 'linear-gradient(to right, #34d399, #059669)',
+      },
     },
   },
   plugins: [],
