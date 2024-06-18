@@ -5,7 +5,8 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="relative z-10 bg-white pt-16 md:pt-20 lg:pt-24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#aae1aa" fill-opacity="1" d="M0,192L30,192C60,192,120,192,180,176C240,160,300,128,360,117.3C420,107,480,117,540,144C600,171,660,213,720,224C780,235,840,213,900,197.3C960,181,1020,171,1080,192C1140,213,1200,267,1260,250.7C1320,235,1380,149,1410,106.7L1440,64L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+      <footer className="relative z-10 bg-[#aae1aa] ">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
@@ -19,7 +20,7 @@ const Footer = () => {
                     height={30}
                   />
                 </Link>
-                <p className="mb-9 text-base leading-relaxed text-body-color">
+                <p className="mb-9 text-base leading-relaxed ">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer lobortis.
                 </p>
@@ -29,7 +30,7 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mr-6 text-body-color duration-300 hover:text-primary"
+                    className="mr-6  duration-300 hover:text-primary"
                   >
                     <svg
                       width="18"
@@ -49,7 +50,7 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mr-6 text-body-color duration-300 hover:text-primary"
+                    className="mr-6  duration-300 hover:text-primary"
                   >
                     <svg
                       width="18"
@@ -71,7 +72,7 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mr-6 text-body-color duration-300 hover:text-primary"
+                    className="mr-6  duration-300 hover:text-primary"
                   >
                     <svg
                       width="18"
@@ -87,7 +88,7 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-body-color duration-300 hover:text-primary"
+                    className=" duration-300 hover:text-primary"
                   >
                     <svg
                       width="17"
@@ -108,10 +109,10 @@ const Footer = () => {
                   Useful Links
                 </h2>
                 <ul>
-                  <li>
+                  <li className="">
                     <Link
                       href="/blog"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary"
+                      className="mb-4 inline-block  border-b-2 border-black border-dashed text-black  duration-300 hover:text-primary"
                     >
                       Blog
                     </Link>
@@ -119,7 +120,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary"
+                      className="mb-4 inline-block border-b-2 border-black border-dashed text-black  duration-300 hover:text-primary"
                     >
                       Pricing
                     </Link>
@@ -127,7 +128,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/about"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary"
+                      className="mb-4 inline-block border-b-2 border-black border-dashed text-black  duration-300 hover:text-primary"
                     >
                       About
                     </Link>
@@ -145,7 +146,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary"
+                      className="mb-4 inline-block border-b-2 border-black border-dashed text-black  duration-300 hover:text-primary"
                     >
                       TOS
                     </Link>
@@ -153,7 +154,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary"
+                      className="mb-4 inline-block border-b-2 border-black border-dashed text-black  duration-300 hover:text-primary"
                     >
                       Privacy Policy
                     </Link>
@@ -161,7 +162,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary"
+                      className="mb-4 inline-block border-b-2 border-black border-dashed text-black  duration-300 hover:text-primary"
                     >
                       Refund Policy
                     </Link>
@@ -179,7 +180,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/contact"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary"
+                      className="mb-4 inline-block border-b-2 border-black border-dashed text-black  duration-300 hover:text-primary"
                     >
                       Open Support Ticket
                     </Link>
@@ -187,7 +188,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary"
+                      className="mb-4 inline-block border-b-2 border-black border-dashed text-black  duration-300 hover:text-primary"
                     >
                       Terms of Use
                     </Link>
@@ -195,7 +196,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/about"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary"
+                      className="mb-4 inline-block border-b-2 border-black border-dashed text-black  duration-300 hover:text-primary"
                     >
                       About
                     </Link>
@@ -206,28 +207,7 @@ const Footer = () => {
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent"></div>
-          <div className="py-8">
-            <p className="text-center text-base text-body-color">
-              Template by{" "}
-              <a
-                href="http://uideck.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                UIdeck
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://nextjstemplates.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-primary"
-              >
-                Next.js Templates
-              </a>
-            </p>
-          </div>
+         
         </div>
         <div className="absolute right-0 top-14 z-[-1]">
           <svg
@@ -252,7 +232,7 @@ const Footer = () => {
                 cx="49.5"
                 cy="49.5"
                 r="49.5"
-                fill="#4A6CF7"
+                fill="#aae1aa"
               />
             </mask>
             <g mask="url(#mask0_94:899)">
