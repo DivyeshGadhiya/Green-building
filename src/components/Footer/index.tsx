@@ -111,7 +111,8 @@ const Footer = () => {
                 <ul>
                   <li className="">
                     <Link
-                      href="/blog"
+                      // href="/blog"
+                      href="/"
                       className="mb-4 inline-block  border-b-2 border-black border-dashed text-black  duration-300 hover:text-primary"
                     >
                       Blog
@@ -127,7 +128,8 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      // href="/about"
+                      href="/"
                       className="mb-4 inline-block border-b-2 border-black border-dashed text-black  duration-300 hover:text-primary"
                     >
                       About
@@ -195,7 +197,8 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      // href="/about"
+                      href="/"
                       className="mb-4 inline-block border-b-2 border-black border-dashed text-black  duration-300 hover:text-primary"
                     >
                       About

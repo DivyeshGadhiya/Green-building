@@ -6,7 +6,7 @@ const Features = () => {
   return (
     <>
       <section id="features" className="py-16 md:py-20 lg:py-28">
-        <div className="container">
+        <div className="container" data-aos="fade-up">
           <SectionTitle
             title="Accreditation"
             paragraph=""

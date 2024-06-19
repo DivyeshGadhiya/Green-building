@@ -67,7 +67,7 @@
 // export default Hero;
 
 "use client"
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import Image from 'next/image';
