@@ -40,7 +40,7 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
       href={href}
       target="_blank"
       rel="nofollow noreferrer"
-      className="relative h-16 w-full opacity-70 transition hover:opacity-100"
+      className="relative h-16 w-full hover:opacity-70 transition opacity-100"
     >
       <Image
         src={imageLight}

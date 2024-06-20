@@ -31,7 +31,7 @@
 //   return (
 //     <section
 //       id="home"
-//       className="relative z-10 overflow-hidden pt-[115px] bg-white dark:bg-gray-dark"
+//       className="relative z-10 overflow-hidden pt-[115px] bg-white"
 //     >
 //       <div className="relative w-full mx-auto">
 //         <div className="overflow-hidden relative  shadow-lg">
@@ -106,7 +106,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative z-10 overflow-hidden pt-[115px] bg-white dark:bg-gray-dark"
+      className="relative z-10 overflow-hidden pt-[115px] bg-white"
     >
       <Splide aria-label="My Favorite Images" options={splideOptions}>
         {images.map((image, index) => (

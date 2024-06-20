@@ -20,7 +20,7 @@ const Footer = () => {
                     height={30}
                   />
                 </Link>
-                <p className="mb-9 text-base leading-relaxed ">
+                <p className="mb-9 text-base text-black leading-relaxed ">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Integer lobortis.
                 </p>
@@ -118,14 +118,14 @@ const Footer = () => {
                       Blog
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/"
                       className="mb-4 inline-block border-b-2 border-black border-dashed text-black  duration-300 hover:text-primary"
                     >
                       Pricing
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       // href="/about"
@@ -145,14 +145,14 @@ const Footer = () => {
                   Terms
                 </h2>
                 <ul>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/"
                       className="mb-4 inline-block border-b-2 border-black border-dashed text-black  duration-300 hover:text-primary"
                     >
                       TOS
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       href="/"
@@ -179,14 +179,14 @@ const Footer = () => {
                   Support & Help
                 </h2>
                 <ul>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/contact"
                       className="mb-4 inline-block border-b-2 border-black border-dashed text-black  duration-300 hover:text-primary"
                     >
                       Open Support Ticket
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       href="/"
