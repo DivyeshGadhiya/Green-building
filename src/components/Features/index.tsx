@@ -5,8 +5,8 @@ import featuresData from "./featuresData";
 const Features = () => {
   return (
     <>
-      <section id="features" className="py-16 md:py-20 lg:py-28">
-        <div className="container" data-aos="fade-up">
+      <section id="features" className="py-16 md:py-20 lg:py-28 bg-[url('/images/acc/baground.jpg')] bg-center bg-no-repeat  bg-fixed">
+        <div className="container backdrop-blur-lg p-5" data-aos="fade-up" >
           <SectionTitle
             title="Accreditation"
             paragraph=""
