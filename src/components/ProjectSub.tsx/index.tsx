@@ -61,10 +61,10 @@ const stepsData = [
 
 const ProjectSub = () => {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center py-10 bg-[url('/images/project/bground.jpg')] bg-fixed bg-center bg-no-repeat " >
-      <div className='flex justify-center  '>
-        <h1 className="text-4xl font-serif  text-black max-md:text-xl max-md:w-full pb-10 w-[100%] font-extrabold mb-8">Project Submission Process</h1></div>
-      <div className="relative grid grid-cols-1 md:grid-cols-3  gap-14 max-w-7xl w-full px-5">
+    <div className="w-[100%] min-h-screen bg-gray-100 flex flex-col items-center py-10 bg-[url('/images/project/bground.jpg')] bg-fixed bg-center bg-no-repeat" >
+      <div className='flex justify-center'>
+        <h1 className="text-4xl font-seriftext-black max-md:text-xl max-md:w-full pb-10 w-[100%] font-extrabold mb-8">Project Submission Process</h1></div>
+      <div className="relative grid grid-cols-1 md:grid-cols-3 gap-14 max-w-7xl w-full px-5">
         {/* First row */}
         <div className="col-span-1 flex flex-col items-center relative" data-aos="fade-right">
           <div className="backdrop-blur-lg text-black text-[20px] font-semibold p-6 rounded-lg shadow-md w-full h-full">
@@ -75,7 +75,7 @@ const ProjectSub = () => {
               ))}
             </ul>
           </div>
-          <div className="absolute right-[-3rem] top-1/2 max-md:hidden transform  -translate-y-1/2" >
+          <div className="absolute right-[-3rem] top-1/2 max-md:hidden transform -translate-y-1/2" >
             <svg xmlns="http://www.w3.org/2000/svg" className='w-10 h-10' shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 485.963"><path fill="#000" d="M273.559 171.532L17.064 151.724C7.717 151.002 0 159.413 0 168.785v148.393c0 9.372 7.704 17.783 17.064 17.06l256.495-19.807v.369l-35.318 100.959c-19.779 51.211 12.189 91.873 49.588 57.439l199.982-191.637c32.252-32.255 32.252-45.759 0-78.011L287.829 11.913c-36.273-32.432-69.367 6.228-49.588 57.436l35.318 100.962v1.221z" /></svg>
           </div>
         </div>
@@ -108,7 +108,7 @@ const ProjectSub = () => {
         </div>
         {/* Second row */}
         <div className="col-span-1 flex flex-col items-center relative pt-5 " data-aos="fade-up-right">
-          <div className="backdrop-blur-lg text-black text-[20px] font-semibold  p-6 rounded-lg shadow-md w-full h-full">
+          <div className="backdrop-blur-lg text-black text-[20px] font-semibold p-6 rounded-lg shadow-md w-full h-full">
             <h3 className="text-2xl font-bold mb-4">{stepsData[3].title}</h3>
             <ul className="list-disc ml-6 space-y-2">
               {stepsData[3].steps.map((subStep, subIndex) => (
@@ -119,7 +119,7 @@ const ProjectSub = () => {
           </div>
         </div>
         <div className="col-span-1 flex flex-col items-center relative md:pt-5" data-aos="fade-up"  >
-          <div className="backdrop-blur-lg text-black text-[20px] font-semibold  p-6 rounded-lg shadow-md w-full h-full">
+          <div className="backdrop-blur-lg text-black text-[20px] font-semibold p-6 rounded-lg shadow-md w-full h-full">
             <h3 className="text-2xl font-bold mb-4">{stepsData[4].title}</h3>
             <ul className="list-disc ml-6 space-y-2">
               {stepsData[4].steps.map((subStep, subIndex) => (
