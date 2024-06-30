@@ -13,6 +13,9 @@ import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
 import ProjectSub from "@/components/ProjectSub.tsx";
+import ServicesMainPage from "@/components/ServicesmainPage";
+import "../styles/index.css";
+
 
 export const metadata: Metadata = {
   title: "Raivat green - Home",
@@ -29,6 +32,7 @@ export default function Home() {
       <Features />
       <Brands />
       <Counter />
+      <ServicesMainPage />
       {/* <Video />
       <AboutSectionOne />
       <Testimonials />
