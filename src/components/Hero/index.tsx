@@ -106,7 +106,7 @@ export default function Hero() {
   return (
     <section
       id=""
-      className="relative z-10 overflow-hidden pt-[115px] bg-white"
+      className="relative z-10 overflow-hidden pt-[120px] bg-white"
     >
       <Splide aria-label="My Favorite Images" options={splideOptions}>
         {images.map((image, index) => (
@@ -116,10 +116,12 @@ export default function Hero() {
               alt={`Image ${index + 1}`}
               height={1500}
               width={2000}
-              className="w-screen h-screen max-sm:h-[300px] transition duration-500 ease-in-out transform max-sm:object-center"
+              className="w-screen h-screen max-sm:h-[300px] transition duration-500 ease-in-out transform max-sm:object-center" 
             />
-            <div className="absolute top-1/2 left-0 transform -translate-y-1/2 p-4 pl-16 bg-black bg-opacity-50 text-white w-[90%] sm:w-[75%] md:w-[60%] lg:w-[45%] max-sm:w-[80%]">
-              <h2 className="text-2xl text-green-300 pb-3 sm:text-xl md:text-5xl lg:text-6xl font-bold max-sm:text-[15px] max-sm:pb-1">{content[index].title}</h2>
+            <div className="absolute inset-0 bg-black opacity-50"></div>
+            <div className="absolute top-1/2 left-0 transform -translate-y-1/2 p-4 pl-16 text-white w-[90%] sm:w-[75%] md:w-[60%] lg:w-[45%] max-sm:w-[80%]">
+              <h2 className="text-2xl text-green-400 sm:text-xl md:text-5xl lg:text-5xl font-bold max-sm:text-[15px] max-sm:pb-1">{content[index].title}</h2>
+              <hr className='border-white my-3' />
               <p className="text-sm sm:text-md md:text-xl max-sm:text-[12px]">{content[index].description}</p>
             </div>
           </SplideSlide>

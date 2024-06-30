@@ -15,6 +15,7 @@ import { Metadata } from "next";
 import ProjectSub from "@/components/ProjectSub.tsx";
 import ServicesMainPage from "@/components/ServicesmainPage";
 import "../styles/index.css";
+import HomeAbout from "@/components/HomeAbout";
 
 
 export const metadata: Metadata = {
@@ -28,8 +29,9 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
+      <HomeAbout />
       <AboutSectionTwo />
-      <Features />
+      {/* <Features /> */}
       <Brands />
       <Counter />
       <ServicesMainPage />
