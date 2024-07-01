@@ -120,8 +120,8 @@ export default function Hero() {
             />
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className="absolute top-1/2 left-0 transform -translate-y-1/2 p-4 pl-16 text-white w-[90%] sm:w-[75%] md:w-[60%] lg:w-[45%] max-sm:w-[80%]">
-              <h2 className="text-2xl text-green-400 sm:text-xl md:text-5xl lg:text-5xl font-bold max-sm:text-[15px] max-sm:pb-1">{content[index].title}</h2>
-              <hr className='border-white my-3' />
+              <h2 className="text-2xl text-green-400 sm:text-xl md:text-5xl lg:text-5xl font-bold max-sm:text-[15px]">{content[index].title}</h2>
+              <hr className='border-white my-3 max-sm:my-1' />
               <p className="text-sm sm:text-md md:text-xl max-sm:text-[12px]">{content[index].description}</p>
             </div>
           </SplideSlide>

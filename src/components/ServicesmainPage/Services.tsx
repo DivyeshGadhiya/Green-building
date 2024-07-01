@@ -48,8 +48,8 @@ const Services = () => {
     return (
         <section className="py-12 bg-gray-50">
             <div className="container mx-auto px-4">
-                <h2 className="text-3xl font-bold text-center mb-8">Services</h2>
-                <p className="text-center mb-12">
+                <h2 className="text-3xl font-bold text-center mb-8 text-[#000]">Services</h2>
+                <p className="text-center mb-12 text-[#000]">
                     Be it architects, property developers, town planners or corporate enterprises – when it comes to embedding
                     sustainability in their developments, Savvy Greens is the name they trust. Not one to rest on our laurels, we constantly
                     evolve to remain in sync with the fast-changing requirements of emerging markets and regulatory bodies.
