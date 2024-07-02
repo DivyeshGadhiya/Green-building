@@ -75,22 +75,22 @@ import Image from 'next/image';
 export default function Hero() {
   const images = [
     '/images/hero/slider_img_1.jpg',
-    '/images/hero/slider_img_2.jpg',
     '/images/hero/slider_img_3.jpg',
+    '/images/hero/slider_img_2.jpg',
   ];
 
   const content = [
     {
-      title: 'Beautiful Architecture',
-      description: `Explore stunning architectural designs from around the world. Discover the intricate details and historical significance behind iconic buildings.`,
+      title: 'Building a Greener Future',
+      description: `Balancing nature and innovation, green building harmonizes our built environment with the natural world, ensuring a sustainable legacy for future generations.`,
     },
     {
-      title: 'Scenic View',
-      description: `Enjoy breathtaking views of natural landscapes and urban scenes. Immerse yourself in the beauty of untouched wilderness and dynamic cityscapes.`,
+      title: 'Balancing Sustainable Living',
+      description: `Green buildings harmonize modern living with renewable energy solutions, ensuring environmental sustainability and energy efficiency for a brighter future.`,
     },
     {
-      title: 'Green Building',
-      description: `Learn about sustainable building practices and eco-friendly architecture. Explore how green buildings contribute to a healthier environment and lower carbon footprint.`,
+      title: 'Sustainable Water Management in Green Buildings',
+      description: `Innovative water-saving solutions in green buildings contribute to environmental conservation by efficiently managing water resources. Embrace eco-friendly designs to support sustainable development.`,
     },
   ];
 

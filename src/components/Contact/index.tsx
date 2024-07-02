@@ -12,10 +12,10 @@ const Contact = () => {
               "
             >
               <h2 className="mb-3 text-2xl font-bold text-black sm:text-3xl lg:text-2xl xl:text-3xl">
-                Need Help? Contact us
+                Ready to kickstart your journey to sustainability?
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
-                Our support team will get back to you ASAP via email.
+                Talk to our sustainability consultants
               </p>
               <form>
                 <div className="-mx-4 flex flex-wrap">
@@ -49,6 +49,21 @@ const Contact = () => {
                       />
                     </div>
                   </div>
+                  <div className="w-full px-4 ">
+                    <div className="mb-8">
+                      <label
+                        htmlFor="phone"
+                        className="mb-3 block text-sm font-medium text-dark"
+                      >
+                        Your Phone Number
+                      </label>
+                      <input
+                        type="tel"
+                        placeholder="Enter your phone number"
+                        className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-green-600"
+                      />
+                    </div>
+                  </div>
                   <div className="w-full px-4">
                     <div className="mb-8">
                       <label
@@ -60,13 +75,13 @@ const Contact = () => {
                       <textarea
                         name="message"
                         rows={5}
-                        placeholder="Enter your Message"
+                        placeholder="Enter your message"
                         className="border-stroke w-full resize-none rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-green-600"
                       ></textarea>
                     </div>
                   </div>
                   <div className="w-full px-4">
-                    <button className="rounded-sm bg-green-800 px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-green-500 ">
+                    <button className="rounded-sm bg-green-800 px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-green-500">
                       Submit
                     </button>
                   </div>
@@ -79,7 +94,6 @@ const Contact = () => {
           </div> */}
         </div>
       </div>
-      
     </section>
   );
 };
