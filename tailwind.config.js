@@ -76,16 +76,21 @@ module.exports = {
         three: "0px 5px 15px rgba(6, 8, 15, 0.05)",
       },
       keyframes: {
+        "left-to-right": {
+          "0%": { transform: "translateX(-100%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
         marquee: {
           "0%": { transform: "translateX(0)" },
-          '100%': { transform: 'translateX(-50%)' },
+          "100%": { transform: "translateX(-50%)" },
         },
       },
       animation: {
         marquee: "marquee 30s linear infinite",
+        "left-to-right": "left-to-right 1s ease-in-out forwards",
       },
       backgroundImage: {
-        'green-gradient': 'linear-gradient(to right, #34d399, #059669)',
+        "green-gradient": "linear-gradient(to right, #34d399, #059669)",
       },
     },
   },

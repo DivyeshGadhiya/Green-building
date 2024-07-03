@@ -4,42 +4,42 @@ import ServiceCard from './ServiceCard';
 const services = [
     {
         title: 'Sustainability Reporting',
-        icon: 'images/servicesmainpage/Reporting.png', // Update with your icon path
+        icon: 'images/servicesmainpage/Reporting.png',
         description: 'Description for Sustainability Reporting',
     },
     {
         title: 'Decarbonisation Roadmap & Strategies',
-        icon: 'images/servicesmainpage/cloudy.png', // Update with your icon path
+        icon: 'images/servicesmainpage/cloudy.png',
         description: 'Description for Decarbonisation Roadmap & Strategies',
     },
     {
         title: 'Green Building Certifications',
-        icon: 'images/servicesmainpage/property-contract.png', // Update with your icon path
+        icon: 'images/servicesmainpage/property-contract.png',
         description: 'Description for Green Building Certifications',
     },
     {
         title: 'Building Performance Analysis',
-        icon: 'images/servicesmainpage/home-inspection.png', // Update with your icon path
+        icon: 'images/servicesmainpage/home-inspection.png',
         description: 'Description for Building Performance Analysis',
     },
     {
         title: 'Product & Process Certification',
-        icon: 'images/servicesmainpage/certificate.png', // Update with your icon path
+        icon: 'images/servicesmainpage/certificate.png',
         description: 'Description for Product & Process Certification',
     },
     {
         title: 'Green Auditing',
-        icon: 'images/servicesmainpage/audit.png', // Update with your icon path
+        icon: 'images/servicesmainpage/audit.png',
         description: 'Description for Green Auditing',
     },
     {
         title: 'Building Commissioning',
-        icon: 'images/servicesmainpage/commission.png', // Update with your icon path
+        icon: 'images/servicesmainpage/commission.png',
         description: 'Description for Building Commissioning',
     },
     {
         title: 'Waste Management Services',
-        icon: '/images/servicesmainpage/waste.png', // Update with your icon path
+        icon: '/images/servicesmainpage/waste.png',
         description: 'Description for Waste Management Services',
     },
 ];
@@ -56,7 +56,7 @@ const Services = () => {
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                     {services.map((service, index) => (
-                        <ServiceCard 
+                        <ServiceCard
                             key={index}
                             title={service.title}
                             icon={service.icon}

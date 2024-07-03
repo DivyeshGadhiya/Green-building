@@ -33,12 +33,10 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
   const { href, image, imageLight, name } = brand;
 
   return (
-    <div className="flex h-24 w-[100%] select-none items-center justify-center px-3 py-4 max-sm:w-[250px] max-sm:px-1 max-sm:py-0">
-      <a
-        href={href}
-        target="_blank"
+    <div className="flex h-25 w-[100%] select-none items-center justify-center px-3 py-4 max-sm:w-[250px] max-sm:px-1 max-sm:py-0">
+      <div
         rel="nofollow noreferrer"
-        className="relative h-16 w-full opacity-100 transition hover:opacity-70"
+        className="relative h-16 w-full opacity-100 transition"
       >
         <Image
           src={imageLight}
@@ -54,7 +52,7 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
           objectFit="contain"
           className="block"
         />
-      </a>
+      </div>
     </div>
   );
 };
