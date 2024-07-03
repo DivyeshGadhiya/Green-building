@@ -3,7 +3,7 @@ import React from "react";
 
 const HomeAbout = () => {
   return (
-    <section className="container py-16 md:py-20 lg:py-28">
+    <section className="container py-16 lg:pt-28 lg:pb-16">
       <div className="flex flex-row max-lg:flex-col">
         <Image
           src="/images/home/HomeAbout_1.svg"
