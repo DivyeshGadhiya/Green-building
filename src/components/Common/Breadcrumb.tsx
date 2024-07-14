@@ -9,22 +9,13 @@ const Breadcrumb = ({
 }) => {
   return (
     <>
-      <section className="relative z-10 overflow-hidden pt-28 lg:pt-[150px]">
-        <div className="container">
-          <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 md:w-8/12 lg:w-7/12">
-              <div className="mb-8 max-w-[570px] md:mb-0 lg:mb-12">
-                <h1 className="mb-5 text-2xl font-bold text-black dark:text-white sm:text-3xl">
-                  {pageName}
-                </h1>
-                <p className="text-base font-medium leading-relaxed text-body-color">
-                  {description}
-                </p>
-              </div>
-            </div>
-            <div className="w-full px-4 md:w-4/12 lg:w-5/12">
-              <div className="text-end">
-                <ul className="flex items-center md:justify-end">
+      <section className=" z-10 overflow-hidden md:pt-52 pt-28 h-screen w-full lg:pt-[150px]  ">
+        <div className="">
+          <div className="-mx-4 ">
+
+            {/* <div className="w-full px-4 md:w-4/12 lg:w-full">
+              <div className="text-start">
+                <ul className="flex items-center md:justify-start">
                   <li className="flex items-center">
                     <Link
                       href="/"
@@ -39,7 +30,21 @@ const Breadcrumb = ({
                   </li>
                 </ul>
               </div>
+            </div> */}
+            <div className="relative w-full px-4 h-screen bg-[url('/images/about/baground.jpeg')] bg-fixed bg-no-repeat bg-cover bg-center">
+              <div className="absolute inset-0 bg-black opacity-65"></div>
+              <div className="relative z-10 mb-8 md:mb-0 lg:mb-12 flex items-center justify-center h-full">
+                <div className="text-center flex justify-center gap-3 items-center flex-col">
+                  <h1 className="mb-5 md:text-6xl font-bold uppercase text-white text-5xl">
+                    {pageName}
+                  </h1>
+                  <p className="text-xl max-md:text-sm font-medium max-md:w-[90%] w-[70%]  leading-relaxed text-white ">
+                    {description}
+                  </p>
+                </div>
+              </div>
             </div>
+
           </div>
         </div>
 
@@ -117,6 +122,7 @@ const Breadcrumb = ({
             </svg>
           </span>
         </div>
+
       </section>
     </>
   );

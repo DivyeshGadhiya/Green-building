@@ -88,6 +88,7 @@ module.exports = {
       animation: {
         marquee: "marquee 30s linear infinite",
         "left-to-right": "left-to-right 1s ease-in-out forwards",
+        'spin-slow': 'spin 30s linear infinite',
       },
       backgroundImage: {
         "green-gradient": "linear-gradient(to right, #34d399, #059669)",
