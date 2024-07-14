@@ -24,7 +24,7 @@ const AboutSectionThree = () => {
               </table>
             </div>
             <p className="mt-4 text-base font-medium leading-relaxed text-body-color text-center">
-              We work with our clients for certification and their benefits, by exchanging our knowledge, helping them to achieve "Building Sustainability".
+              We work with our clients for certification and their benefits, by exchanging our knowledge, helping them to achieve &quot;Building Sustainability&quot;.
             </p>
           </div>
         </div>

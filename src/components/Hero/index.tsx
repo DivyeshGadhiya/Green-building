@@ -104,10 +104,7 @@ export default function Hero() {
   };
 
   return (
-    <section
-      id=""
-      className="relative z-10 overflow-hidden pt-[120px] bg-white"
-    >
+    <section className="relative z-10 overflow-hidden lg:pt-[120px] md:pt-28 max-sm:pt-[86px] bg-white">
       <Splide aria-label="My Favorite Images" options={splideOptions}>
         {images.map((image, index) => (
           <SplideSlide key={index} className="relative">

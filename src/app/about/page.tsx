@@ -22,7 +22,7 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
+        pageName="About"
         description="Green building, also known as sustainable building, is the practice of creating structures and using processes that are environmentally responsible and resource-efficient throughout a building's life cycle: from siting to design, construction, operation, maintenance, renovation, and deconstruction. This holistic approach aims to enhance the well-being of both people and the planet."
       />
       <AboutSectionOne />

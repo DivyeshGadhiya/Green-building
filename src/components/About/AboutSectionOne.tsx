@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const AboutSectionOne = () => {
   return (
-    <section className="container pt-16 ">
+    <section className="container pt-16">
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
           {/* <div className="w-full px-4 lg:w-1/2">

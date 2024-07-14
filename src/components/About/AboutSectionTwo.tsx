@@ -11,7 +11,7 @@ const AboutSectionTwo = () => {
   }, []);
 
   return (
-    <section className="container pb-16">
+    <section className="container pb-16 max-sm:pb-0">
       <div className="container mx-auto px-4">
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2 mb-8 lg:mb-0">

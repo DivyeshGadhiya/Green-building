@@ -9,10 +9,9 @@ const Breadcrumb = ({
 }) => {
   return (
     <>
-      <section className=" z-10 overflow-hidden md:pt-52 pt-28 h-screen w-full lg:pt-[150px]  ">
-        <div className="">
-          <div className="-mx-4 ">
-
+      <section className="z-10 overflow-hidden md:pt-28 max-sm:pt-[86px] h-screen w-full lg:pt-[120px]">
+        <div>
+          <div>
             {/* <div className="w-full px-4 md:w-4/12 lg:w-full">
               <div className="text-start">
                 <ul className="flex items-center md:justify-start">
@@ -35,20 +34,20 @@ const Breadcrumb = ({
               <div className="absolute inset-0 bg-black opacity-65"></div>
               <div className="relative z-10 mb-8 md:mb-0 lg:mb-12 flex items-center justify-center h-full">
                 <div className="text-center flex justify-center gap-3 items-center flex-col">
-                  <h1 className="mb-5 md:text-6xl font-bold uppercase text-white text-5xl">
+                  <h1 className="md:text-6xl font-bold uppercase text-white text-5xl">
                     {pageName}
                   </h1>
-                  <p className="text-xl max-md:text-sm font-medium max-md:w-[90%] w-[70%]  leading-relaxed text-white ">
+                  <hr className='border-white my-3 max-sm:my-1 max-md:w-[90%] w-[70%]' />
+                  <p className="text-xl max-md:text-sm font-medium max-md:w-[90%] w-[70%] leading-relaxed text-white">
                     {description}
                   </p>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <span className="absolute left-0 top-0 z-[-1]">
             <svg
               width="287"
@@ -121,7 +120,7 @@ const Breadcrumb = ({
               </defs>
             </svg>
           </span>
-        </div>
+        </div> */}
 
       </section>
     </>
