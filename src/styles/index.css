@@ -10,6 +10,9 @@
       font-family: "Gothic A1", sans-serif !important;
       text-transform: capitalize;
   }
+  .text-body-color{
+    color: #3c3c3c !important;
+  }
 }
 
 @layer components {

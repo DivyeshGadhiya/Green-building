@@ -6,7 +6,7 @@ const AboutSectionAwards = () => {
     <section className="container pt-16">
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold text-black" data-aos="fade-up">
-          Raivat Awards
+        Raivat&rsquo;s Achievements
         </h2>
       </div>
       <div className="flex flex-wrap justify-center items-center" data-aos="fade-up">

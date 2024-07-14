@@ -36,7 +36,7 @@ const AboutSectionTwo = () => {
           </div>
           <div className="w-full px-4 lg:w-1/2">
             <div
-              className="relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
+              className="relative mx-auto mb-12 aspect-[square] max-w-[500px] text-center lg:m-0 overflow-hidden"
               data-aos="fade-right"
             >
               <div className="relative w-full h-0 pb-[100%]">

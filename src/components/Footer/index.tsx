@@ -115,7 +115,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block  border-b-2 border-black border-dashed text-black  duration-300 hover:text-primary"
                     >
-                      Blog
+                      Service
                     </Link>
                   </li>
                   {/* <li>
